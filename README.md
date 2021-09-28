@@ -2,8 +2,8 @@
 
 Intended for easing personal service deployments on my homelab :)
 
-| Name | Type | Default | Description |
-| ---- | ---- | ------- | ----------- |
+| Variable | Type | Default | Description |
+| -------- | ---- | ------- | ----------- |
 | name | string | n/a | The name of the VM (Required) |
 | clone | string | n/a | The VM name to clone (Required) |
 | ciuser | string | n/a | The user login for the VM (Required) |
