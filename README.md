@@ -7,7 +7,7 @@ Intended for easing personal service deployments on my homelab :)
 | name | string | n/a | The name of the VM (Required) |
 | clone | string | n/a | The VM name to clone (Required) |
 | ciuser | string | n/a | The user login for the VM (Required) |
-| cipassword | string | n/a | The user password for the VM (Required) |
+| cipassword | string | n/a | The user password for the VM |
 | sshkeys | string | n/a | The public sshkey to add to the VM (Required) |
 | target_node | string | default = "pve-zacchaeus" | The node to deploy on |
 | agent | number | default = 1 | Whether Qemu_agent is turned on |

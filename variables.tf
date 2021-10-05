@@ -29,6 +29,7 @@ variable "ciuser" {
 }
 variable "cipassword" {
   type      = string
+  default   = ""
   sensitive = true
 }
 variable "sshkeys" {
